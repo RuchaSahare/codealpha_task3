@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Frontend Mentor | Social Media Dashboard</title>
+  </head>
+  <body class="dark-theme">
+    <header class="header-backdrop dark-theme">
+      <div class="header-content">
+        <div class="headliner">
+          <h1>Social Media Dashboard</h1>
+          <h2>Total Followers: <span class="total-follower-qty"></span></h2>
+        </div>
+        <hr class="dark-theme">
+        <div class="theme-switcher-container dark-theme">
+          <p>Dark Mode</p>
+          <div class="theme-switcher dark-theme">
+            <div class="theme-switch-btn dark-theme"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-content dark-theme">
+      <section class="stat-container">
+        <section class="follower-stat-container"></section>
+        <section class="daily-like-view-container">
+          <h1>Overview - Today</h1>
+          <div class="daily-like-deck">
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
